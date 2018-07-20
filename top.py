@@ -30,9 +30,9 @@ def parse_one_page(html):
     		'title':item[2].strip(),
     		'actor':item[3].strip()[3:],
     		'time':item[4].strip()[5:],
-    		'score':item[5] + item[6]   		
+    		'score':item[5] + item[6]
     	}
- 
+
 
 #写入文件
 def write_to_file(content):
